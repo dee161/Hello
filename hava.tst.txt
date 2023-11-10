@@ -1,0 +1,22 @@
+JAVA 
+PRE-DEFINE ->
+         alread define..
+AND user DEFINE  function
+         create by user
+function
+Question ->  block of code 
+             specific Task
+
+static 
+    function 
+            obj create karta hai toh constructor call hota hai
+    static block 
+    memory management  
+        ex:
+        int z= 20
+            x=10
+        static int z -30
+            z-30
+            
+    variable
+
