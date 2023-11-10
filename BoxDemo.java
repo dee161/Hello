@@ -4,15 +4,21 @@ class BoxDemo {
     int length;
     int height;
     int width;
+    int v;
 
     BoxDemo() {
-        System.out.println("Constructor of BoxDemo...");
+        System.out.println("ha");
     }
 
     void setValue(int l, int h, int w) {
         length = l;
         height = h;
         width = w;
+    }
+
+    void vol() {
+        v = length * height * width;
+        System.out.println("volume is " + v);
     }
 }
 
@@ -22,16 +28,11 @@ class Box {
         BoxDemo bd = new BoxDemo();
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter length, height, and width:");
         l = sc.nextInt();
         h = sc.nextInt();
         w = sc.nextInt();
-
         bd.setValue(l, h, w);
-
-        // You can access the values set in BoxDemo
-        System.out.println("Length: " + bd.length);
-        System.out.println("Height: " + bd.height);
-        System.out.println("Width: " + bd.width);
+        bd.vol();
+        System.out.println("enter the value for length, height , width ");
     }
 }
